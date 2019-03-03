@@ -1,4 +1,4 @@
-package laskuri2;
+package laskuri2; 
 
 public class Laskuri2{
   /* laskuriolion kentan arvoa voi kasvattaa yhdella kutsumalla metodia
