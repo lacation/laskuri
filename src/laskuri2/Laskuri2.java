@@ -10,19 +10,24 @@ public class Laskuri2{
 			return;
 		this.tapahtumia = alkuarvo;
 	}
+        
 	public Laskuri2(){
 		this.tapahtumia = 0;
+                
 	}
 
   	public void lisaa(){
     		this.tapahtumia = this.tapahtumia + 1; 
   	}
+        
   	public int lukema(){
     		return this.tapahtumia;
   	}
+        
   	public void nollaa(){
     		this.tapahtumia = 0;
   	}
+        
 	public String toString(){
 		return "Laskurin lukema on " + this.tapahtumia;
 	}
